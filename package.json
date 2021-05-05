@@ -1,11 +1,13 @@
 {
   "name": "zgy-ui",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "main": "lib/index.umd.min.js",
     "lib": "vue-cli-service build --target lib --name index --dest lib packages/index.js"
+    
   },
   "dependencies": {
     "core-js": "^3.6.5",
